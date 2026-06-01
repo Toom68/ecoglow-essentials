@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #2f855a;
+  --primary-dark: color-mix(in srgb, #2f855a 80%, black);
+  --font: 'Lato', system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: var(--font); background: #fff; color: #111; }
